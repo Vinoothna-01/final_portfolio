@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
 
         <div className="text-center md:text-right">
           <p className="text-slate-400 text-sm">
-            &copy; {new Date().getFullYear()} Vinoothna Dudam. All rights reserved.
+            &copy; {new Date().getFullYear()} VD. All rights reserved.
           </p>
           <p className="text-slate-600 text-[10px] mt-1 font-mono uppercase tracking-widest">
             Built with React 19 • Tailwind CSS • Vite

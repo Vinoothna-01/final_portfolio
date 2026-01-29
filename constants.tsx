@@ -1,4 +1,3 @@
-
 import { GitHubProject, ProjectCategory, Experience, SkillCategory, Certification } from './types';
 
 export const PERSONAL_INFO = {
@@ -56,6 +55,17 @@ export const EXPERIENCES: Experience[] = [
     current: true
   },
   {
+    company: "Crane Worldwide Logistics",
+    role: "Incoming Data Analyst Intern",
+    period: "Upcoming - Summer 2025",
+    description: [
+      "Selected for a highly competitive summer internship program focused on logistics data optimization.",
+      "Will be working with global supply chain datasets to identify efficiency improvements.",
+      "Collaborating with the analytics team to develop predictive models for freight operations."
+    ],
+    current: false
+  },
+  {
     company: "Socialz",
     role: "Founder and Developer",
     period: "Hackathons and Projects",
@@ -71,7 +81,7 @@ export const EXPERIENCES: Experience[] = [
     period: "Global Technology Philanthropy Event",
     description: [
       "Collaborated in Agile-style teams to develop technology-driven solutions for nonprofit organizations.",
-      "Translated business problem statements into measurable technical and analytical outcomes.",
+      "Translating business problem statements into measurable technical and analytical outcomes.",
       "Delivered presentations combining data analysis, AI-supported insights, and visual storytelling."
     ]
   },

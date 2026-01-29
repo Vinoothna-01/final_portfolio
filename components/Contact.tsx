@@ -75,6 +75,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
                 </div>
              </div>
              
+             {/* Decorative Background Elements */}
              <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-cyan-500/10 rounded-full blur-[80px]"></div>
              <div className="absolute -top-20 -left-20 w-64 h-64 bg-purple-500/10 rounded-full blur-[80px]"></div>
           </div>
